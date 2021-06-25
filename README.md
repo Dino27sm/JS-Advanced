@@ -1,2 +1,2 @@
 # JS-Advanced
- JS-Advanced Exwercises
+ JS-Advanced Exercises
