@@ -11,7 +11,6 @@ function solve() {
 
    function generateItems(){
      let inputItems = JSON.parse(textAreaGenerate.value);
-     // For each inputItem create a new table row
      let tableBodyElm = document.querySelector('.table tbody');
      for (let i = 0; i < inputItems.length; i++) {
        let tr = document.createElement('tr');
