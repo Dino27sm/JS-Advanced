@@ -35,14 +35,6 @@ function requestValid(httpObj){
     }
 }
 
-// console.log(requestValid({
-//     method: 'GET',
-//     uri: 'svn.public.catalog',
-//     version: 'HTTP/1.1',
-//     message: ''
-//   }
-//   ));
-
   console.log(requestValid({
         method: 'POST',
         uri: 'home.bash',
