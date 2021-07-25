@@ -3,7 +3,6 @@ function validate() {
 
     function isValidEmail(str) {
         if (/^[a-z]+@[a-z]+\.[a-z]+/g.test(str)) return true
-
         return false
     }
 
