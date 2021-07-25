@@ -1,6 +1,5 @@
 function functionalSum(n){
     let temp = 0
-
     function recursive(x) {
         temp += x
         return recursive
