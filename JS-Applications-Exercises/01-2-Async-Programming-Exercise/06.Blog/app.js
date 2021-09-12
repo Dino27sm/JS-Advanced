@@ -40,10 +40,6 @@ function attachEvents() {
 
         Object.values(postData)
         .forEach(x => selectElm.appendChild(createOption('option', x.id, x.title)));
-
-        // for (const value of Object.values(postData)) {
-        //     selectElm.appendChild(createOption('option', value.id, value.title));
-        // }
     }
 
     function createOption(elmType, attributeValue, postName){
